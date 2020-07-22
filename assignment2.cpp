@@ -94,7 +94,8 @@ int main() {
 	square.setHeight(10); // Err....?
 	/*
 	- Violation of Principles
-	?
+	Liskov Substitution principle is violated.
+	setting a height at 10 means width should get automatic to 10.
 	?
 	?
 	*/
